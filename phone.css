@@ -1,0 +1,38 @@
+#services{
+    flex-direction: column;
+}
+#client{
+    flex-wrap: wrap;
+}
+#navbar{
+    flex-direction:column;
+}
+#home{
+    height: 280px;
+    padding: 3px 68px;
+    
+   
+}
+#home::before{
+    height: 400px;
+}
+.h-primary{
+    font-size: 26px;
+
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+
+
+}
+.button{
+    font-size: 13px;
+    padding: 4px 8px;
+
+}
+#client img{
+    width: 66px;
+    padding: 2px 56px;
+}

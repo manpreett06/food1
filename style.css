@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height:59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+
+}
+#logo{
+    margin: 34px 45px;
+
+
+}
+#logo img{
+    height: 156px;
+    margin: -11px 11px;
+
+
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(78, 77, 69);
+    background-color: rgb(120, 121, 110);
+   
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 200px;
+    height: 760px;
+    justify-content: center;
+    align-items: center;
+    transition:all 2s ease-in-out .4s;
+}
+#home:hover{
+    background-color: bisque;
+    border-radius: 100px;
+}
+#Home::before{
+    content:"";
+    position: absolute;
+    background:url('../fooddd5.avif') no-repeat center/cover;
+    height: 107%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+    
+
+}
+#home h1{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+#home p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.button{
+    padding: 6px 20px;
+    border: 2px solid wheat;
+    background-color: rgb(165, 149, 42);
+    color: beige;
+    margin: 17px;
+    font-size:1.5rem;
+
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+#Services{
+    margin: 1px;
+    display: flex;
+}
+#Services .box{
+    border: 2px solid rgb(101, 6, 6);
+    margin: 3px;
+    border-radius: 10px;
+    background-color: bisque;
+
+
+}
+#Services .box img{
+    height:200px;
+    margin: auto;
+    display: block;
+
+
+}
+#client{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#client-section{
+    height: 14px;
+
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+    background:url('../bgbg.jpg') no-repeat center/cover;
+    height: 107%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+#client img{
+    height: 188px;
+
+}
+#contact{
+    position: relative;
+    margin:300px;
+}
+#contact::before{
+    content:"";
+    position: absolute;
+    
+    height: 100%;
+    width:119%;
+    z-index: -1;
+    opacity: 0.3;
+    background:url('../contact.avif') no-repeat center/cover;
+
+}
+footer{
+    background-color: black;
+    color:wheat;
+    padding: 7px 9px;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 14px;
+}
+#contact-box form{
+    width: 12%;
+}
+#contact-box textarea{
+    width:350%;
+    padding: 0.5rem;
+   
+
+}
+
+
+
+    

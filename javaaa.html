@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var str="this is a string";
+        console.log(str);
+        var position=str.indexOf('is');
+        console.log(position);
+        var substr=str.slice(1,6);
+        console.log(substr); 
+        let name=prompt("what is ypur name");
+        console.log(name);
+        let deletepost= confirm("really");
+        let friends=["rohan","geeta","aviraj","ravleen"];
+        for (let index = 0; index < friends.length; index++) {
+            console.log("hello friends myself"+ friends[index]);
+            
+        }
+        let employee={
+            name:"aviraj",
+            salary:2,
+            channel:"cwh",
+        }
+        for(key in employee){
+            console.log('the $ {key} of employee is ${employee[key]}');
+        }
+    </script>
+</body>
+</html>
